@@ -1,0 +1,33 @@
+/* Define the style for tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Define the style for table cells */
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+/* Define the style for table header cells */
+th {
+  background-color: #333;
+  color: white;
+}
+
+/* Define the style for even rows in the table */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Define the style for buttons */
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}

@@ -1,0 +1,47 @@
+/* Set container properties */
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+/* Set heading properties */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Set form container properties */
+.form-container {
+  margin-bottom: 30px;
+}
+
+/* Set form properties */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Set input properties */
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Set button properties */
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Set button hover properties */
+button:hover {
+  background-color: #0062cc;
+}
